@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estadisticas</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <nav class="navbar navbar-expand-sm navbar-light bg-success col-md-12">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- enlaces -->
+        <div class="collapse navbar-collapse" id="opciones">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="noticia.html">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="divisa.html">Divisas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="horoscopo.html">Horoscopo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="estadistica.html">Estadisticas</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    </div>
+
+    <section class="row justify-content-center">
+      <div class="col-md-8 bg-white">
+        <h2>Estadisticas Covid-19</h2>
+        <form>
+          <div class="form-group row">
+            <label for="pais" class="col-md-3 col-form-label">Pais:</label>
+            <div class="col-md-9">
+              <select class="form-control" id="pais">
+                <option>Ecuador</option>
+                <option>Brazil</option>
+                <option>Chile</option>
+                <option>Bolivia</option>
+                <option>Argentina</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="casosConfirmados" class="col-md-4 col-form-label">Casos Confirmados:</label>
+            <div class="check-per float-left">
+              <input class="form-check-input" type="checkbox" value="" id="casosConfirmados">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="curados" class="col-md-4 col-form-label">Curados:</label>
+            <div class="float-left">
+              <input class="form-check-input" type="checkbox" value="" id="curados">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="fallecidos" class="col-md-4 col-form-label">Fallecidos:</label>
+            <div class="float-left">
+              <input class="form-check-input" type="checkbox" value="" id="fallecidos">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-3 col-md-9">
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </form>
+        <br>
+        <h4 class="text-danger">Numeros en el mundo</h4>
+        <table class="table table-responsive">
+          <thead class="bg-dark text-white">
+            <tr>
+              <td>Ubicacion</td>
+              <td>Casos Confirmados</td>
+              <td>Casos por 1mill de Personas</td>
+              <td>Curados</td>
+              <td>Fallecidos</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><img class="img-per-estadistica" src="img/wondicon-ui-free-website_111210.ico"> Todo el mundo</td>
+              <td>1.413.415</td>
+              <td>181,45</td>
+              <td>298.256</td>
+              <td>81.200</td>
+            </tr>
+            <tr>
+              <td><img class="img-per-estadistica" src="img/arg.ico"> Argentina</td>
+              <td>1.628</td>
+              <td>36,23</td>
+              <td>21.584</td>
+              <td>12.123</td>
+            </tr>
+            <tr>
+              <td><img class="img-per-estadistica" src="img/usa.ico"> Estados Unidos</td>
+              <td>392.255</td>
+              <td>1.190,54</td>
+              <td>21.254</td>
+              <td>12.545</td>
+            </tr>
+            <tr>
+              <td><img class="img-per-estadistica" src="img/australia.ico"> Australia</td>
+              <td>135.255</td>
+              <td>2.250,54</td>
+              <td>24.154</td>
+              <td>17.545</td>
+            </tr>
+            <tr>
+              <td><img class="img-per-estadistica" src="img/croacia.ico"> Croacia</td>
+              <td>107.244</td>
+              <td>1.249,54</td>
+              <td>31.254</td>
+              <td>2.545</td>
+            </tr>
+
+
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="row bg-success justify-content-center">
+      <h6 class="text-white">Programacion y Servicios Web 2020 - ANACHURI, Bruno Alejandro</h6>
+    </footer>
+  </div>
+  
+  <script src="node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

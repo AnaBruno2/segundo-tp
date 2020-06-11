@@ -1,0 +1,95 @@
+.container {
+    background-color: rgb(236, 236, 236);
+}
+.container h2 {
+    padding-left: 1em;
+    font-weight: bold;
+}
+
+
+
+
+.card-body-per{
+    margin-left: -1.3em;
+    margin-right: -1.3em;
+}
+
+.card-title-per {
+    background-color: red;
+    color: white;
+    padding-left: 0.5em;
+    margin-top: -1.1em;
+    margin-right: 7em;
+    font-size: 1em;
+}
+
+.card-text-per {
+    
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: -0.7em;       
+}
+
+.card-pers-noticias {
+    background-color: rgb(236, 236, 236);  
+}
+
+.card img {
+    width: auto;
+    height: 12em;
+}
+
+.img-peronalizada {
+    height: auto;   
+}
+
+
+/*Estilos del Conversor*/
+.tituloConversor {
+    font-size: 1.3em;
+    text-align: left;
+    color: white;
+}
+
+.banderas {
+    width: 1.5em;
+    align-content: center;
+}
+
+.imgCentrada {
+    text-align: center;      
+}
+
+.table-per{
+    font-size: 1.2em;
+}
+
+/*Estilos del Horoscopo*/
+.img-per-horoscopo {
+    width: 3.3em;
+}
+
+.btn-per-horoscopo {
+    margin:0.8em;
+    margin-left: 0em;
+}
+
+.card-body-per-horoscopo img {
+    width: 10em;
+    height: 8em;
+    margin-top: 1.7em;   
+}
+
+.card-body-per-horoscopo {
+    background-color: #e5eaee;
+}
+
+.fondo-card h4 {
+    color: #075aad;
+}
+
+/*Estilos de la Estadistica*/
+
+.img-per-estadistica {
+    width: 1.4em;
+}   
